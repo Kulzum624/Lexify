@@ -44,7 +44,7 @@ const CheckoutM = () => {
         <h1 className="text-2xl font-bold mb-2 text-purple-800">
           Stripe Checkout
         </h1>
-        <p className="text-lg font-semibold mb-2">Legalease Nexus Membership</p>
+        <p className="text-lg font-semibold mb-2">Lexify Membership</p>
         <p className="text-lg mb-4">
           Secure a Lifetime Membership and Enjoy Endless Legal Assistance,
           Courses, and Books.
@@ -67,8 +67,8 @@ const CheckoutM = () => {
           className={`bg-purple-600 text-white font-semibold py-2 px-8 rounded-full transition duration-300 ease-in-out ${
             isLoading && "opacity-50 cursor-not-allowed"
           }`}
-          onClick={redirectToCheckout}
-          disabled={isLoading}
+          // onClick={redirectToCheckout}
+          // disabled={isLoading}
         >
           {isLoading ? "Loading..." : "Buy"}
         </button>

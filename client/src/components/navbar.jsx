@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Legalease from "./assets/legalnexus2.png";
+import Lexify from "./assets/lexify_black.png";
 
 const Navbar = ({ userType, auth1 }) => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -31,7 +31,7 @@ const Navbar = ({ userType, auth1 }) => {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-10 w-auto" src={Legalease} alt="LegaleaseNexus" />
+            <img className="h-10 w-auto" src={Lexify} alt="Lexify" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -134,8 +134,8 @@ const Navbar = ({ userType, auth1 }) => {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-12 w-auto"
-                  src={Legalease}
-                  alt="Legalease Nexus"
+                  src={Lexify}
+                  alt="Lexify"
                 />
               </a>
               <button

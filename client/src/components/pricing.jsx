@@ -42,7 +42,7 @@ const Pricing = () => {
             Choose your plans: Affordable Solutions for Legal Ease
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Unlock Premium Features with Legalease Nexus Membership: Gain Access
+            Unlock Premium Features with Lexify Membership: Gain Access
             to Exclusive Resources, Tools, and Support.
           </p>
         </div>
@@ -53,7 +53,7 @@ const Pricing = () => {
               Monthly Subscription
             </h3>
             <p className="mt-6 text-base leading-7 text-gray-600">
-              Subscribe Monthly and Enjoy Premium Features with Legalease Nexus
+              Subscribe Monthly and Enjoy Premium Features with Lexify
               Membership.
             </p>
             {/* Features */}
@@ -105,7 +105,7 @@ const Pricing = () => {
               Annual Subscription
             </h3>
             <p className="mt-6 text-base leading-7 text-gray-600">
-              Subscribe Annually and Enjoy Premium Features with Legalease Nexus
+              Subscribe Annually and Enjoy Premium Features with Lexify
               Membership.
             </p>
             {/* Features */}

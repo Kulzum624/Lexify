@@ -16,7 +16,7 @@ const Hero = () => {
             }}
           ></div>
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl py-20">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Explaining our experts view.{" "}
@@ -31,7 +31,7 @@ const Hero = () => {
               Commitment to Legal Excellence
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              At Legalease Nexus, we understand that each legal matter is unique
+              At Lexify, we understand that each legal matter is unique
               and requires personalized attention. Our team of seasoned
               attorneys brings a wealth of experience to the table, offering a
               comprehensive range of legal services tailored to meet your
@@ -69,36 +69,36 @@ const Hero = () => {
             <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
               <img
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
-                alt="Transistor"
+                src=""
+                alt="LegalEagle Collective"
                 width="158"
                 height="48"
               />
               <img
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
-                alt="Reform"
+                src=""
+                alt="Justice Advocates"
                 width="158"
                 height="48"
               />
               <img
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
-                alt="Tuple"
+                src=""
+                alt="The Empowerment League"
                 width="158"
                 height="48"
               />
               <img
                 className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-                alt="SavvyCal"
+                src=""
+                alt="Rights Defenders"
                 width="158"
                 height="48"
               />
               <img
                 className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-                alt="Statamic"
+                src=""
+                alt="Verdict Visionaries"
                 width="158"
                 height="48"
               />
@@ -202,12 +202,12 @@ const Hero = () => {
                 <div className="flex items-center gap-x-6">
                   <img
                     className="h-16 w-16 rounded-full"
-                    src="https://reispellicano.com/wp-content/uploads/2019/11/Reis-Pellicano-Rodolfo-Pellicano.jpg"
+                    src="https://www.aeuropea.com/wp-content/uploads/2022/12/algerrrr-300x294.png"
                     alt=""
                   />
                   <div>
                     <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
-                      Reis Pellicano
+                    Mokrane Ali
                     </h3>
                     <p className="text-sm font-semibold leading-6 text-indigo-600">
                       International Lawyer

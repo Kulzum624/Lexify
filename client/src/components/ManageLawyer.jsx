@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import './ManageLawyer.css';
+
 // const bcryptjs = require('bcryptjs');
 
 const ManageLawyer = () => {
@@ -195,7 +197,7 @@ const ManageLawyer = () => {
       <div className="container shadow my-5 mx-auto px-9 py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
           <div className="col-md-5 md:order-2 flex flex-col items-center justify-center form text-white">
-            <h1 className="text-4xl font-bold mb-4">Add Lawyer</h1>
+            <h1 className="text-4xl font-bold mb-4 text-oultine">Add Lawyer</h1>
             <p className="text-lg text-center mb-3">Enter Details To Register</p>
             <h5 className="text-lg mb-4">OR</h5>
             <nav>
@@ -250,7 +252,7 @@ const ManageLawyer = () => {
                   className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                   id="lawyer_license_no"
                   name="lawyer_license_no"
-                  pattern="[a-zA-z]{2}-[0-9]{4}/[0-9]{1}"
+                  pattern="[a-zA-z]{2}-[0-9]{4}/[0-9]{2}"
                   placeholder="PK-1234/18"
                   value={newLawyer.lawyer_license_no}
                   onChange={handleInput}

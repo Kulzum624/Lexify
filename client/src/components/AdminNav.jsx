@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Legalease from "./assets/legalnexus2.png";
+import Lexify from "./assets/lexify_black.png";
 
 const AdminNav = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -31,7 +31,7 @@ const AdminNav = () => {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-10 w-auto" src={Legalease} alt="LegaleaseNexus" />
+            <img className="h-10 w-auto" src={Lexify} alt="Lexify" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -71,7 +71,7 @@ const AdminNav = () => {
             About
           </Link>
           {/* Dropdown for Knowledge Base */}
-          <div
+          {/* <div
             className="relative group"
             onClick={handleDropdownToggle}
             onMouseEnter={handleMouseEnter}
@@ -111,7 +111,7 @@ const AdminNav = () => {
                 </Link>
               </div>
             )}
-          </div>
+          </div> */}
           <Link
             to="/admin/manage-user"
             className="text-sm font-semibold leading-6 text-gray-600"
@@ -146,8 +146,8 @@ const AdminNav = () => {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-12 w-auto"
-                  src={Legalease}
-                  alt="Legalease Nexus"
+                  src={Lexify}
+                  alt="Lexify"
                 />
               </a>
               <button

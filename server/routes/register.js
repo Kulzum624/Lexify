@@ -5,7 +5,7 @@ const sendEmail =require("../utils/sendEmail");
 const crypto =require("crypto");
 const user = db.users;
 
-const allowedDomains = ["gmail.com", "cfd.nu.edu.pk", "yahoo.com"];
+const allowedDomains = ["gmail.com", "nu.edu.pk", "yahoo.com"];
 
   router.post("/", async (req, res) => {
     try{

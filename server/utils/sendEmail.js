@@ -14,7 +14,7 @@ module.exports=async (email,subject,text)=>
             }
         });
         await transporter.sendMail({
-            from:'"Welcome to Legalease Nesus" <legalease-nexus@gmail.com>',
+            from:'"Welcome to Lexify" <lexify@gmail.com>',
             to:email,
             subject:subject,
             text:text

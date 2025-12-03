@@ -30,7 +30,7 @@ router.post("/", async (req, res) => {
   
       const hashedPassword = await bcryptjs.hash(pass, 10);
   
-      sendEmail(email, 'Legalease Nexus Password Reset', `Your Password is: ${pass}`);
+      sendEmail(email, 'Lexify Password Reset', `Your Password is: ${pass}`);
       //Update Password
       await lawyer.update(
           { lawyer_password: hashedPassword },
@@ -49,7 +49,7 @@ router.post("/", async (req, res) => {
 
     const hashedPassword = await bcryptjs.hash(pass, 10);
 
-    sendEmail(email, 'Legalease Nexus Password Reset', `Your Password is: ${pass}`);
+    sendEmail(email, 'Lexify Password Reset', `Your Password is: ${pass}`);
     //Update Password
     await user.update(
         { user_password: hashedPassword },

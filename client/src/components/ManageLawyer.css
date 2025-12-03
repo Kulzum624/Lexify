@@ -1,0 +1,14 @@
+.text-outline {
+    text-shadow: 
+      -3px -3px 0 #000, 
+      3px -3px 0 #000, 
+      -3px 3px 0 #000, 
+      3px 3px 0 #000;
+  }
+
+  .text-outline {
+    color: white; /* Main text color */
+    -webkit-text-stroke: 1px black; /* Black border around the text */
+    -webkit-font-smoothing: antialiased; /* Improve text rendering */
+    font-weight: bold; /* Make the text bold for better visibility */
+  }

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./assets/legalnexus2.png";
+import Logo from "./assets/lexify_black.png";
 const Signin = () => {
   return (
     <div className="flex min-h-full flex-col justify-center px-6 py-32 lg:px-8">

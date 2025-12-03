@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import White from "./assets/white.png"
+import White from "./assets/lexify_white.png"
 const Footer = () => {
   return (
     <footer className="bg-black text-white p-8">
@@ -11,7 +11,7 @@ const Footer = () => {
               <img
                 className="h-12 w-auto mb-4"
                 src={White}
-                alt="LegaleaseNexus"
+                alt="Lexify"
               />
               <p className="text-sm">Our Commitment to Legal Excellence</p>
             </a>
@@ -60,8 +60,8 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="text-lg font-semibold mb-4">Contact Us</h2>
-            <p className="text-sm">Email: legaleasenexus@gmail.com</p>
-            <p className="text-sm">Phone: +923336058400</p>
+            <p className="text-sm">Email: lexify@gmail.com</p>
+            <p className="text-sm">Phone: +923336360499</p>
           </div>
           <div>
             <h2 className="text-lg font-semibold mb-4">Follow Us</h2>
@@ -130,7 +130,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 text-center">
           <p className="text-sm">
-            &copy; 2023 Legalease Nexus. All rights reserved.
+            &copy; 2023 Lexify. All rights reserved.
           </p>
         </div>
       </div>
