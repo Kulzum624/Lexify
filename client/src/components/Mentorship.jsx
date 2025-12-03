@@ -26,7 +26,6 @@ const Mentorship = () => {
             part: "snippet",
             q: "law of pakistan lectures series",
             type: "video",
-            key: "",
             maxResults: 12,
             order: sortBy,
             pageToken: page > 1 ? nextPageToken : undefined,
